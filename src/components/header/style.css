@@ -3,7 +3,7 @@ header{
     width:100%;
     height:75px;
     z-index: 999;
-    background-color: #2B2D37;
+    background-color: transparent; /** #2B2D37 **/
 }
 
 .symbol{

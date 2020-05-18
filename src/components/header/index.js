@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import {HashLink as Link}from 'react-router-hash-link';
 import {FaBars} from 'react-icons/fa';
-import identidadeVisual from '../../assets/identidadeVisual.png';
+import identidadeVisual  from '../../assets/identidadeVisual.png';
 import {MdClose} from 'react-icons/md';
-import {Link} from 'react-router-dom';
 import './style.css';
 
 

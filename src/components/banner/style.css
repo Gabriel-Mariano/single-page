@@ -1,0 +1,87 @@
+.banner-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position:relative;
+    float:left;
+    top:0;
+    left:0;
+    width:100%;
+    height:290px;
+    background: url("../../assets/banner.jpg")no-repeat;
+    background-size: cover;
+}
+
+.banner-principal div h1{
+    font-family: century gothic;
+    font-size:2.4em;
+    color:#FFFFFF;
+    transition:0.6s ease;
+}
+
+.banner-principal div h2{
+    text-align: center;
+    font-family: century gothic;
+    font-size:0.9em;
+    font-weight: bold;
+    color:#FFFFFF;
+    margin-bottom:20px;
+    transition:0.6s ease;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons a{
+    padding:10px 30px;
+    margin:auto 2px;
+    background-color: rgba(255,255,255,0.1);
+    font-family: century gothic;
+    font-weight: bold;
+    color:#FFFFFF;
+    border:1px solid #FFFFFF; /* 1px solid rgba(255,255,255,0.1); */
+    text-decoration: none;
+    transition: ease-in 0.5s;
+}
+
+#btnActive{
+    background-color: #8B814C;
+    border:1px solid #8B814C;
+    color: #FFFFFF;
+    transition: ease-in 0.5s;
+}
+
+#btnActive:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    border:1px solid #FFFFFF;
+}
+
+.buttons a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/* -- MEDIAS QUERIES -- */
+
+@media (min-width:620px){
+    .banner-principal{
+        height:399px;
+    }
+}
+
+@media (min-width:900px){
+    .banner-principal{
+        height:690px;
+    }
+    .banner-principal div h1{
+        font-size:4em;
+    }
+
+    .banner-principal div h2{
+        font-size:1.3em;
+    }
+}    
