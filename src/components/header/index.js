@@ -34,7 +34,7 @@ function Header(){
                     <MdClose style={{ color: 'white' }} size="1.8em"></MdClose>
                 </button>
                 <ul>
-                    <li><Link>Home</Link></li>
+                    <li class="active"><Link>Ínicio</Link></li>
                     <li><Link>Sobre</Link></li>
                     <li><Link>Projetos</Link></li>
                     <li><Link>Budget</Link></li>

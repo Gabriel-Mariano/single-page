@@ -6,7 +6,7 @@ function Banner(){
     return(
         <section className="banner-principal">
             <div>
-                <h1>WEB DEVTEMPLATES</h1>
+                <h1>WEBDEV TEMPLATES</h1>
                 <h2>Criamos sua marca e ampliamos o seu alcance</h2>
                 <div className="buttons">
                     <Link smooth to="#info" id="btnActive">Comece Agora</Link>

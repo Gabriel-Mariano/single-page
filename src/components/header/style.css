@@ -51,8 +51,53 @@ header{
 }
 
 #menu-bars li a{
-    font-family: century gothic;
+    font-family: calibri;
     font-size:1.5em;
     text-decoration: none;
     color:#FFF;
+}
+
+
+/* ** MEDIA QUERIES ** */
+
+@media (min-width:900px){
+     .btnActions{
+        display: none !important;
+    }
+
+    #menu-bars{
+        display: initial !important;
+        position:relative;
+        float:right;
+        width:650px;
+        height: 75px; 
+        background-color: transparent;
+    }
+    #menu-bars ul{
+        display: flex;
+        
+        height:75px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #menu-bars li{
+        padding:1.3em;
+    }
+
+    #menu-bars li a{
+        font-size: 1.2em;
+        font-weight: bold;
+        color:#E8E8E8;
+    }
+
+    .active a{
+        color:#FFFFFF!important;
+    }
+
+    #menu-bars li a:hover{
+        color:#FFFFFF;
+    }
+
+
 }
